@@ -3,8 +3,14 @@
   "version": "0.0.1",
   "description": "Web application for periodically checking prices",
   "main": "index.js",
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
